@@ -1,0 +1,16 @@
+*settings_local.py
+*.pyc
+*.json
+*.svn*
+lib/
+bin/
+build/
+share/
+include/
+*.sass-cache/
+devdata/
+
+*.tgz
+.DS_Store
+media/
+xapian/

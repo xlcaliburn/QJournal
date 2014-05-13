@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% load navigation %}
+{% load tag_cloud %}
+
+{% block content %}
+<h1>Tags and Topics</h1>
+<div class="tag-cloud">
+{% do_cloud %}
+</div>
+{% endblock content %}
